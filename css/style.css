@@ -162,7 +162,6 @@ body.lock {
 
 .consultation:hover {
     background-color: #ef7d77;
-    ;
 }
 
 .header__offer-img {
@@ -298,7 +297,6 @@ body.lock {
 .reviews {
     padding: 64px 0 80px 0;
     background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
-    ;
 }
 
 .reviews__sub-title-wrapper {
@@ -414,14 +412,11 @@ body.lock {
 }
 
 .our-partners__icons {
-    display: grid;
+    display: flex;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 20px;
-}
-
-.our-partners__icons-item {
-    justify-self: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .our-partners__icons img {
@@ -467,5 +462,4 @@ body.lock {
 
 .border-line {
     border: 1px solid #F0F0F0;
-    ;
 }

@@ -15,7 +15,7 @@ menuIcon.addEventListener('click', function () {
 });
 
 function removeAndAddActive(n) {
-
+    
     for (e of reviewsSlider) {
         e.classList.remove('reviews__slider-item_active');
     }

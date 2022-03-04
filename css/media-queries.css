@@ -2,10 +2,6 @@
     .container {
         max-width: 960px;
     }
-
-    .our-partners__icons {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 }
 
 @media screen and (max-width: 992px) {
@@ -129,20 +125,11 @@
     .realize__text-block {
         width: 100%;
     }
-
-    .our-partners__icons {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
 }
 
 @media screen and (max-width: 768px) {
     .container {
         max-width: 540px;
-    }
-
-    .our-partners__icons {
-        grid-template-columns: 1fr 1fr;
     }
 
     .footer__nav-list {
@@ -198,9 +185,4 @@
     .realize__sub-title {
         margin-bottom: 34px;
     }
-
-    .our-partners__icons {
-        grid-template-columns: auto;
-    }
-
 }
