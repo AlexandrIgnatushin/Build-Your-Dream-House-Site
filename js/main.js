@@ -15,7 +15,7 @@ menuIcon.addEventListener('click', function () {
 });
 
 function removeAndAddActive(n) {
-    
+
     for (e of reviewsSlider) {
         e.classList.remove('reviews__slider-item_active');
     }
@@ -51,8 +51,8 @@ reviewsLeftBtn.addEventListener('click', prevSlide);
 
 new Swiper('.portfolio__slider', {
     navigation: {
-        nextEl: portfolioBtnPrev,
-        prevEl: portfolioBtnNext,
+        nextEl: portfolioBtnNext,
+        prevEl: portfolioBtnPrev,
     },
     spaceBetween: 40,
     loop: true,
