@@ -16,3 +16,5 @@
 <li>Анимацию появления меню, при нажатии на иконку бургер-меню</li>
 <li>Адаптивную верстку сайта</li>
 </ul>
+
+Посмотреть проект можно по ссылке: https://alexandrignatushin.github.io/Build-Your-Dream-House-Site/
